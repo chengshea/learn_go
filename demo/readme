@@ -1,0 +1,20 @@
+
+环境变量
+go env
+
+GOPATH="/home/cs/go"
+GOROOT="/opt/go"
+GOPROXY="https://goproxy.cn,direct"
+
+
+
+设置代理
+$ go env -w GOPROXY=https://goproxy.cn,direct
+cd ./demo
+cs@debian:~/go/src/demo$ go mod init demo
+go: creating new go.mod: module demo
+go: to add module requirements and sums:
+	go mod tidy
+
+
+

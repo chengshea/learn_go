@@ -1,0 +1,7 @@
+redis:
+ addr: 127.0.0.1:9736
+ username: cs
+ pwd: 12&21!=8
+ db: 0
+mysql:
+  url: root:123456@tcp(127.0.0.1:3305)/test?charset=utf8mb4&parseTime=True&loc=Local

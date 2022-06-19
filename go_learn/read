@@ -1,0 +1,13 @@
+redis  github.com/go-redis/redis/v8
+
+
+
+基础库
+fmt   打印
+strconv  类型转换
+time  时间包(获取,休眠等)
+strings  字符处理   
+
+encoding/json  json
+encoding/hex   16进制编解码
+crypto/md5    md5

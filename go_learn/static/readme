@@ -1,0 +1,2 @@
+cs@debian:~/go/src/go_learn/static$ tsc app.ts 
+cs@debian:~/go/src/go_learn/static$ node app.js

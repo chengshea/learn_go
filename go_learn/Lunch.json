@@ -1,0 +1,17 @@
+{
+ "version": "0.2.0",
+"configurations": [{
+        "name": "LaunchGo",
+        "type": "go",
+        "request": "launch",
+        "mode": "auto",
+        "program": "${fileDirname}",
+        "env": {
+        "GOPATH": "/home/cs/go",
+        "GOROOT": "/opt/go"
+        },
+        "args": [],
+        "showLog": true
+       }
+       ]
+}
