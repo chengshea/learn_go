@@ -25,7 +25,7 @@ func Tget1(c *gin.Context) {
 func Tget2(c *gin.Context) {
 	name := c.Query("name")
 	if !tool.IsStrNull(name) {
-		client := tool.OpenConRedis()
+		client := tool.OpenRedis()
 		val, err := client.Get(ctx, name).Result()
 		if !tool.IsExist(err) {
 			log.Fatalln("key does not exist")

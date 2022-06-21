@@ -27,7 +27,7 @@ func Tpost1(c *gin.Context) {
 func Tpost2(c *gin.Context) {
 	name := c.PostForm("name")
 	if !tool.IsStrNull(name) {
-		client := tool.OpenConRedis()
+		client := tool.OpenRedis()
 		err := client.Set(ctx, name, "1234", 0).Err()
 		if err != nil {
 			panic(err)

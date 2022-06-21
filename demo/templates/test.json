@@ -1,0 +1,23 @@
+{
+  "id": 1296269,
+  "owner": {
+    "login": "octocat",
+    "id": 1,
+    "type": "User",
+    "site_admin": false
+  },
+  "name": "Hello-World",
+  "full_name": "octocat/Hello-World",
+  "description": "This your first repo!",
+  "private": false,
+  "forks_count": 9,
+  "stargazers_count": 80,
+  "watchers_count": 80,
+  "size": 108,
+  "default_branch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  }
+}

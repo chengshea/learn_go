@@ -9,7 +9,7 @@ import (
 var ctx = context.Background()
 
 func redisGet(name string) {
-	client := tool.OpenConRedis()
+	client := tool.OpenRedis()
 	val, err := client.Get(ctx, name).Result()
 	if err != nil {
 		log.Fatalln(err)

@@ -22,7 +22,7 @@ func initRedis() *redis.Client {
 
 }
 
-func OpenConRedis() *redis.Client {
+func OpenRedis() *redis.Client {
 	log.Println("OpenCon======", client)
 	if client == nil {
 		log.Println("===init===")
